@@ -2,7 +2,7 @@
 
 ## Style Guide
 
-### Whitesapce
+### Whitespace
 
 - All source files use one hard tab for each level of indentation
 - Don't leave trailing whitespace, including on otherwise blank lines
