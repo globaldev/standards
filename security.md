@@ -71,7 +71,7 @@ other users identities.
 [owaspavs]: https://www.owasp.org/index.php/ASVS
 
 
-### 3. Cross-Site Scrinting (XSS)
+### 3. Cross-Site Scripting (XSS)
 
 XSS flaws occur whenever an application takes untrusted data and sends it to a
 web browser without proper validation or escaping. XSS allows attackers to
