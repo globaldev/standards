@@ -1,6 +1,6 @@
 # Code Reviews and Pull Requests
 
-All code that gets deployed on to the WLD platform must go through at least one
+All code that gets deployed on to our platform must go through at least one
 phase of code review.  This guide details how we perform code reviews and
 includes information for both reviewers and those requesting a review.
 
