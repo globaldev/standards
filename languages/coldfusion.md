@@ -81,8 +81,7 @@
 
 - Never output any external value without first cleaning it and/or escaping it
   to mitigate against XSS attacks
-- Validate and clean any values submitted by the user (`com.wld.generic.XSS`
-  can help with this)
+- Validate and clean any values submitted by the user
 - Always use `<cfqueryparam>` and the correct `CFSQLType` to mitigate against
   SQL injection attacks
 - OWASP provides a [selection of resources][owasp] relevant to best-practices
