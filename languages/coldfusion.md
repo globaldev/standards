@@ -83,8 +83,6 @@
   to mitigate against XSS attacks
 - Validate and clean any values submitted by the user (`com.wld.generic.XSS`
   can help with this)
-- Use the `<cf_csrf_form` custom tag instead of raw `<form` values to ensure
-  that form `POST`s are covered by CSRF protection
 - Always use `<cfqueryparam>` and the correct `CFSQLType` to mitigate against
   SQL injection attacks
 - OWASP provides a [selection of resources][owasp] relevant to best-practices
