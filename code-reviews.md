@@ -46,16 +46,16 @@ The reviewer should ignore things like syntactic errors, inconsistencies with
 agreed coding standards etc, and assume that these will be fixed down the line,
 and instead focus on:
 
-* Reasoning
+* **Reasoning**
     * Has the developer understood the problem at hand?
     * Does the approach taken actually solved the problem?
-* Approach
+* **Approach**
     * Is the approach taken generally correct?
     * Are there any significant edge cases that need to be considered?
-* Architecture
+* **Architecture**
     * Is the general code layout in keeping with the rest of the application?
     * Has a sensible breakdown of classes and modules been used?
-* Security
+* **Security**
     * Has the developer considered any potential
       [security implications](security.md)?
 
