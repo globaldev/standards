@@ -23,10 +23,10 @@
   just name the variables sensibly
 - Scopes should be in lowercase: `form.firstName`
 - All built-in ColdFusion functions should be in `lowercase()`
-- Custom functions and component names should be `lowerCamelCased()`
+- Custom functions and component names should be `lowerCamelCase()`
 - Built-in operators should be in uppercase: `EQ`, `NEQ`
 - Boolean values should be uppercase: `TRUE` and `FALSE`
-- Properties files keys should be in `lowercase_with_underscores`
+- Property file keys should be in `lowercase_with_underscores`
 
 [hungarian]: http://en.wikipedia.org/wiki/Hungarian_notation
 
