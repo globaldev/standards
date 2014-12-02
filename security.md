@@ -5,7 +5,7 @@
 Each year, OWASP collate a list of the [top 10 of the most critical risks
 facing organisations][top10].  It focusses on application security, and gives
 details on both checking for vulnerabilities, as well as mitigation strategies.
-The list is updated anually based on changing technology and prevalence of
+The list is updated annually based on changing technology and prevalence of
 attacks, and is organised based on this as well as risk factor.
 
 OWASP also produce a series of [cheat sheets][cheat] which cover security best
@@ -26,7 +26,7 @@ is sent to an interpreter as part of a command or query. The attacker’s hostil
 data can trick the interpreter into executing unintended commands or accessing
 data without proper authorization.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Audit code to check for any unvalidated input being sent to an external
   interpreter, including SQL, XML parsers, SMTP Headers, program arguments etc.
@@ -53,7 +53,7 @@ often not implemented correctly, allowing attackers to compromise passwords,
 keys, or session tokens, or to exploit other implementation flaws to assume
 other users identities.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Are session IDs exposed in the URL?
 * Do session IDs timeout after a sensible period?
@@ -78,7 +78,7 @@ web browser without proper validation or escaping. XSS allows attackers to
 execute scripts in the victim’s browser which can hijack user sessions, deface
 web sites, or redirect the user to malicious sites.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Is any user-supplied input stored server-side without being sanitised, and
   later redisplayed without correct escaping ("Stored XSS Attack")?
@@ -110,7 +110,7 @@ internal implementation object, such as a file, directory, or database key.
 Without an access control check or other protection, attackers can manipulate
 these references to access unauthorized data.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Does the application fail to verify the user is authorised to access the
   exact resource they have requested?
@@ -134,7 +134,7 @@ and platform. Secure settings should be defined, implemented, and maintained,
 as defaults are often insecure. Additionally, software should be kept up to
 date.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Are any software libraries or server stack components out of date? This
   includes the operating system, web/application server, database,
@@ -171,7 +171,7 @@ other crimes. Sensitive data deserves extra protection such as encryption at
 rest or in transit, as well as special precautions when exchanged with the
 browser.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Is any sensitive data stored in clear text long term, including backups of
   this data?
@@ -206,7 +206,7 @@ access control checks on the server when each function is accessed. If requests
 are not verified, attackers will be able to forge requests in order to access
 functionality without proper authorization.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Does the UI show navigation to unauthorised functions?
 * Are server-side authentication or authorisation checks missing?
@@ -231,7 +231,7 @@ included authentication information, to a vulnerable web application. This
 allows the attacker to force the victim’s browser to generate requests the
 vulnerable application thinks are legitimate requests from the victim.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Do any forms that invoke state-changing functions lack an unpredictable CSRF
   token?
@@ -256,7 +256,7 @@ an attack can facilitate serious data loss or server takeover. Applications
 using components with known vulnerabilities may undermine application defenses
 and enable a range of possible attacks and impacts.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Are any components or library versions in use which have known
   vulnerabilities?
@@ -288,7 +288,7 @@ websites, and use untrusted data to determine the destination pages. Without
 proper validation, attackers can redirect victims to phishing or malware sites,
 or use forwards to access unauthorized pages.
 
-#### Checking for Vulnerablities
+#### Checking for Vulnerabilities
 
 * Review the code for all uses of redirect or forward. For each use, identify
   if the target URL is included in any parameter values. If so, if the target
@@ -321,7 +321,7 @@ or use forwards to access unauthorized pages.
   and tools for performing penetration testing against web-based software
   systems.
 * [Zed Attack Proxy][owasp-zed] is an integrated penetration testing tool to
-  assist in finding vulnerablities in web applications. It provides automated
+  assist in finding vulnerabilities in web applications. It provides automated
   scanners as well as a set of tools that allow security vulnerabilities to be
   discovered manually.
 

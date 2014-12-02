@@ -61,7 +61,7 @@ h1 {
 
 #### Semicolons
 
-This Sass complier will tell you off for most instances of missing semicolons
+This Sass compiler will tell you off for most instances of missing semicolons
 but please always append the last rule per block with a semi-colon just like
 you would with every other rule.
 
