@@ -7,7 +7,7 @@
 * **Keep It Simple (KISS)**: simple code takes less time to write, has fewer
   bugs, is easier to modify, and easier to understand.
 * Part of KISS is to do the simplest thing that could possibly work, and don't
-  write code that guesses at future functionality. In other words: **practice
+  write code that guesses at future functionality. In other words: **practise
   YAGNI**.
 * Follow the **principle of least surprise**: people generally make quick
   assumptions about blocks of code, so try and make this impression accurate.
