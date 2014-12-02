@@ -19,7 +19,7 @@ process.  Just some of the benefits of codes reviews include:
 * Helping everyone learn: not just about the system, but about development
   techniques in general.
 * Avoiding tunnel vision from the implementor: it's all too easy to have
-  blinkers on what coding, and not thinking about wider issues.
+  blinkers on while coding, and not thinking about wider issues.
 * Heading off bad design decisions before they get too ingrained within the
   implementation, and therefore more expensive to change.
 * Ensuring adherence to coding and development standards.
@@ -140,7 +140,7 @@ The description should include the following pieces of information:
 Remember that once a pull request is closed, it forms part of the documentation
 of the system you are working on, so ensuring the description includes all the
 details above is as much of a maintenance issue as it is for code review.
-Imagine how good it would be in 6 months time to track down a specific pull
+Imagine how good it would be in six months' time to track down a specific pull
 request, to discover a complete story of what the change introduced and why it
 was made?
 

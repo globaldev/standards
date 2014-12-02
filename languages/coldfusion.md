@@ -128,7 +128,7 @@ private void function doSomething() { ... }
   specifically updating the syntax, keep the formatting like the old code
 - All code should look like it's been written by one person
 - Redundant variables should be removed from the code
-- Do not comment code out: delete it (that's what source control it for)
+- Do not comment code out: delete it (that's what source control is for)
 - Declare variables as close as possible to where they are used
 - Use named constants to replace [magic numbers][magic]
 
