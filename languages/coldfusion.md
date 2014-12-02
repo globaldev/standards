@@ -33,7 +33,7 @@
 #### Built-in Operators and Syntax
 
 - Use implicit structure and array definition syntax: `{}` and `[]`
-- Use captialised syntax for operators: `a EQ b`, not `a == b`
+- Use capitalised syntax for operators: `a EQ b`, not `a == b`
 - Do not use the following operators:
   - `EQUAL`, `NOT EQUAL`, `IS`, `IS NOT`
   - `LESS THAN`, `GREATER THAN`
@@ -104,7 +104,7 @@
 - Use `<cfscript>` to aid readability, but avoid using it where it introduces
   unnecessary complication (e.g. when performing database queries)
 - Confine script-based code to component methods and unit tests
-- Curly braces should be preceeded by a space, as should opening parentheses
+- Curly braces should be preceded by a space, as should opening parentheses
 
 ```cfm
 if (expression) { ... }
@@ -139,7 +139,7 @@ private void function doSomething() { ... }
 ### Unit Testing
 
 - Unit tests use [MXUnit][mxunit] and [Mockbox][mockbox]
-- Test cases should be isolated abd not depend on other objects
+- Test cases should be isolated and not depend on other objects
 - Test components should have a filename ending in `Test.cfc` (e.g.
   `MemberTest.cfc`)
 - Reference the component under test as `CUT`

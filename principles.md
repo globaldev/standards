@@ -6,12 +6,12 @@
   yourself, and **don't duplicate the functionality of a built-in library**.
 * **Keep It Simple (KISS)**: simple code takes less time to write, has fewer
   bugs, is easier to modify, and easier to understand.
-* Part of KISS is to do the simplest thing that coule possibly work, and don't
+* Part of KISS is to do the simplest thing that could possibly work, and don't
   write code that guesses at future functionality. In other words: **practice
   YAGNI**.
 * Follow the **principle of least surprise**: people generally make quick
   assumptions about blocks of code, so try and make this impression accurate.
-* **Don't program by coincedence**: be deliberate about what you build.
+* **Don't program by coincidence**: be deliberate about what you build.
 * Remember that someone else will probably end up maintaining your code, so
   **write code for that future maintainer**.
 * **Exceptions should be exceptional**, so don't use them in place of
@@ -19,7 +19,7 @@
 
 ## Object-Oriented Design
 
-* **Single Responsibilty Principle**: Objects should have a single
+* **Single Responsibility Principle**: Objects should have a single
   responsibility.
 * **Open-Closed Principle**: classes should be open for extension, and closed
   for modification.

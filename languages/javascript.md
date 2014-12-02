@@ -340,7 +340,7 @@ function doStuff() {
 
 - Cache selected elements!
 
-- Use a single delegated event hander rather than binding an event to multiple
+- Use a single delegated event handler rather than binding an event to multiple
   elements
   - You can bind handlers before child elements are available
   - You can add new child elements to a container and they'll automatically
