@@ -40,11 +40,11 @@ requesting and performing code reviews.
 
 ## Contributing
 
-Although this documentation is publically accessible, it's still a set of
-living documents based on the current understanding and thinking of the team
-here at globaldev.  Feel free to submit issues and pull requests, but please
-don't be upset if they get closed due to discussions we have internally
-(although we'll always try and explain the decision we've made).
+Although this documentation is publicly accessible, it's still a set of living
+documents based on the current understanding and thinking of the team here at
+globaldev.  Feel free to submit issues and pull requests, but please don't be
+upset if they get closed due to discussions we have internally (although we'll
+always try and explain the decision we've made).
 
 ## License
 
