@@ -1,9 +1,8 @@
 # Code Reviews and Pull Requests
 
 All code that gets deployed on to the WLD platform must go through at least one
-phase of code review.  This guide details how we perform code reviews at Global
-Personals and includes information for both reviewers and those requesting a
-review.
+phase of code review.  This guide details how we perform code reviews and
+includes information for both reviewers and those requesting a review.
 
 Please note: this is a guide only, and there will be plenty of times where
 something doesn't quite fit in to what's described here.  The important part is
