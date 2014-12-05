@@ -76,7 +76,8 @@ other users identities.
 XSS flaws occur whenever an application takes untrusted data and sends it to a
 web browser without proper validation or escaping. XSS allows attackers to
 execute scripts in the victim’s browser which can hijack user sessions, deface
-web sites, or redirect the user to malicious sites.
+web sites, or redirect the user to malicious sites.  Note that "untrusted data"
+may refer to user input for data from untrusted external systems.
 
 #### Checking for Vulnerabilities
 
