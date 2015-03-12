@@ -21,18 +21,19 @@
 - Constant names should be in `UPPERCASE_WITH_UNDERSCORES`
 - Don't use variable prefixes (e.g. [Hungarian Notation][hungarian]) - instead
   just name the variables sensibly
-- Scopes should be in lowercase: `form.firstName`
-- All built-in ColdFusion functions should be in `lowercase()`
-- Custom functions and component names should be `lowerCamelCased()`
-- Built-in operators should be in uppercase: `EQ`, `NEQ`
-- Boolean values should be uppercase: `TRUE` and `FALSE`
 - Properties files keys should be in `lowercase_with_underscores`
 
 [hungarian]: http://en.wikipedia.org/wiki/Hungarian_notation
 
+#### Function Naming
+
+- All built-in ColdFusion functions should be in `lowercase()`
+- Custom functions and component names should be `lowerCamelCased()`
+
 #### Built-in Operators and Syntax
 
 - Use implicit structure and array definition syntax: `{}` and `[]`
+- Built-in operators should be in uppercase: `EQ`, `NEQ`
 - Use capitalised syntax for operators: `a EQ b`, not `a == b`
 - Do not use the following operators:
   - `EQUAL`, `NOT EQUAL`, `IS`, `IS NOT`
@@ -43,6 +44,7 @@
 #### Variable Scoping
 
 - All variables must be appropriately scoped
+- Scopes should be in lowercase: `form.firstName`
 - Use the built-in `local` scope when inside a function
 
 #### Testing for Variable Existence
@@ -51,6 +53,7 @@
 
 #### Boolean Values
 
+- Boolean values should be uppercase: `TRUE` and `FALSE`
 - Use `TRUE` or `FALSE` for booleans, not `YES`, `NO`, `1` or `0`
 - Use boolean expressions for positive conditions where the explicit notation
   is not necessary
