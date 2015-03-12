@@ -21,6 +21,8 @@
 - Constant names should be in `UPPERCASE_WITH_UNDERSCORES`
 - Don't use variable prefixes (e.g. [Hungarian Notation][hungarian]) - instead
   just name the variables sensibly
+- Variable names should be descriptive without being too verbose: `memberId` not `id`
+- Variable names should reflect the purpose of a variable in isolation
 - Properties files keys should be in `lowercase_with_underscores`
 
 [hungarian]: http://en.wikipedia.org/wiki/Hungarian_notation
