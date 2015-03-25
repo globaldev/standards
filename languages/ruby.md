@@ -42,6 +42,18 @@ one.two.three.
 All string literals should be quoted with double-quotes unless the string
 contains `"` itself, in which case use either `'` or `%Q{}`.
 
+### Hash Literals vs. Keyword Arguments in Method Calls
+
+When making method calls, always use `=>` for hash literals and `:` for keyword
+arguments (even when only using one or the other).
+
+```ruby
+def foo(bar: "baz", **opts); end
+
+foo(bar: "baz", this: "is", a: "hash")        # bad
+foo(bar: "baz", :this => "is", :a => "hash")  # good
+```
+
 ### Ruby on Rails
 
 For Rails-specific projects, in addition to the guidelines above, follow the
