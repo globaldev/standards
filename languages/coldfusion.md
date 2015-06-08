@@ -125,6 +125,45 @@ void function doSomething() { ... }
 private void function doSomething() { ... }
 ```
 
+## `CFSQLType` Mappings For MySQL 5
+
+Use the appropriate `CFSQLType` value when using `<cfqueryparam>`.
+
+| ColdFusion 9 | MySQL 5.1.42Connector/J 5.1.7 |
+| ------------ |:------------:|
+| CF_SQL_ARRAY | - |
+| CF_SQL_BIGINT | bigint (signed), int (unsigned) |
+| CF_SQL_BINARY | binary, tinyblob |
+| CF_SQL_BIT | bit, bool |
+| CF_SQL_BLOB | blob |
+| CF_SQL_CHAR | char |
+| CF_SQL_CLOB | - |
+| CF_SQL_DATE | date |
+| CF_SQL_DECIMAL | decimal |
+| CF_SQL_DISTINCT | - |
+| CF_SQL_DOUBLE | double, double precision, real |
+| CF_SQL_FLOAT | - |
+| CF_SQL_IDSTAMP | - |
+| CF_SQL_INTEGER | mediumint (signed and unsigned), int (signed) |
+| CF_SQL_LONGVARBINARY | mediumblob, longblob, tinyblob |
+| CF_SQL_LONGVARCHAR | text, mediumtext,longtext |
+| CF_SQL_MONEY | - |
+| CF_SQL_MONEY4 | - |
+| CF_SQL_NULL | - |
+| CF_SQL_NUMERIC | numeric, bigint(unsigned) |
+| CF_SQL_OTHER | - |
+| CF_SQL_REAL |  |
+| CF_SQL_REFCURSOR | - |
+| CF_SQL_SMALLINT | smallint (signed or unsigned), tinyint (signed) |
+| CF_SQL_STRUCT | - |
+| CF_SQL_TIME | * |
+| CF_SQL_TIMESTAMP | datetime, timestamp |
+| CF_SQL_TINYINT | tinyint (unsigned) |
+| CF_SQL_VARBINARY | varbinary |
+| CF_SQL_VARCHAR | varchar, tinytext, enum, set |
+
+Source: http://cfsearching.blogspot.co.uk/2010/01/cfqueryparam-matrix-for-mysql-5.html
+
 ## Principles
 
 - Follow form: if you're modifying an existing section of code, and not
