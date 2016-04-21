@@ -208,8 +208,6 @@ being they are indented appropriately as if they were rules.
 
 #### Colours
 
-* Hex code colours should always use all six characters throughout. No
-  shorthand
 * Each element of RGB/A or HSL/A should be separated with a comma and space,
   with no preceding or trailing white space
 * Alpha values should be in decimal format, relative to 1.0, not in percentages
