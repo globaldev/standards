@@ -11,6 +11,10 @@
 
 ### Syntax
 
+#### Method Invocation
+
+- Use named arguments
+
 #### Quotes
 
 - Use double quotes for string values, unless the string value itself contains
