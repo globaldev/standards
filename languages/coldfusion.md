@@ -6,6 +6,7 @@
 
 - All source files use one hard tab for each level of indentation
 - Don't leave trailing whitespace, including on otherwise blank lines
+- Use a single blank line for code spacing instead of multiple blank lines
 - Finish all files with a blank line
 - Add a single space after commas (`, `) and around equals symbols (` = `)
 
