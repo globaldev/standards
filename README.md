@@ -29,14 +29,13 @@ allow for early capture of potential issues, but also as a method of spreading
 knowledge through the team.  This document contains the what, why and how of
 requesting and performing code reviews.
 
-
 ## Language-Specific Coding Standards
 
 * [ColdFusion](languages/coldfusion.md)
 * [CSS](languages/css.md)
 * [JavaScript](languages/javascript.md)
+* [PHP](languages/php.md)
 * [Ruby](languages/ruby.md)
-
 
 ## Contributing
 
