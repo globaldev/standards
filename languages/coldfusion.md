@@ -62,7 +62,7 @@
 
 #### Boolean Values
 
-- Boolean values should be uppercase: `TRUE` and `FALSE`
+- Boolean values should be uppercase: `TRUE` and `FALSE`, except for built-in functions which should be lowercase for `output` and `required` attributes.
 - Use `TRUE` or `FALSE` for booleans, not `YES`, `NO`, `1` or `0`
 - Use boolean expressions for positive conditions where the explicit notation
   is not necessary
