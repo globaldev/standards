@@ -34,6 +34,13 @@
 
 [hungarian]: http://en.wikipedia.org/wiki/Hungarian_notation
 
+#### Creating Objects
+
+- The correct case should be used when creating objects. For example, if a
+  component has the path `the/path/to/MyObject.cfc` the object should be created
+  as `createobject("the.path.to.MyObject")` and not
+  `createobject("the.path.to.myobject")`.
+
 #### Function Naming
 
 - All built-in ColdFusion functions should be in `lowercase()`
