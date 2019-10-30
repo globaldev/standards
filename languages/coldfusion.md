@@ -140,6 +140,19 @@ void function doSomething() { ... }
 private void function doSomething() { ... }
 ```
 
+#### Using `generatedKey` rather than ``@@IDENTITY`` to avoid race conditions
+
+Use `generatedKey` within the query result (`result_name.GENERATEDKEY`) to
+return the ID of an inserted row. Do not use `generated_key` which is MySQL
+only.
+
+Avoid using database system functions and variables such as `@@IDENTITY`
+where possible.
+
+#### Lucee only functions and features
+
+Avoid using Lucee only functions and features where possible.
+
 ## `CFSQLType` Mappings For MySQL 5
 
 Use the appropriate `CFSQLType` value when using `<cfqueryparam>`.
