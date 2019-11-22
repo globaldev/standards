@@ -72,9 +72,6 @@
 - Boolean values should be uppercase: `TRUE` and `FALSE`, except for settings
   with boolean attributes which should be lowercase `true` and `false`.
   e.g.`output` and `required` attributes.
-- Use `TRUE` or `FALSE` for booleans, not `YES`, `NO`, `1` or `0`
-- Use boolean expressions for positive conditions where the explicit notation
-  is not necessary
 
 ```cfm
 <!--- yes --->
