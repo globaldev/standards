@@ -93,10 +93,14 @@ the specific questions you need answering.
 ## Requesting a Code Review
 
 We use a branching model which follows [GitHub Flow][ghflow], and use GitHub's
-[Pull Requests][prs] as a means to perform code reviews.  The creation of a new
-pull request is effectively a request for a code review of some format on what
-you've submitted.
+[Pull Requests][prs] as a means to perform code reviews. 
 
+The creation of a new pull request is effectively a request for a code review of some format on what
+you've submitted. 
+
+To give the whole team visibility it's important to post a link to the pull request in the relevant [Slack][slack] channel e.g. post ruby work in #ruby. This allows people to both review your changes and keep up to date with different projects.
+
+[slack]: https://slack.com/
 [ghflow]: https://guides.github.com/introduction/flow/
 [prs]: https://help.github.com/articles/using-pull-requests/
 
