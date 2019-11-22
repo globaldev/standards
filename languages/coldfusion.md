@@ -34,6 +34,13 @@
 
 [hungarian]: http://en.wikipedia.org/wiki/Hungarian_notation
 
+#### Creating Objects
+
+- The correct case should be used when creating objects. For example, if a
+  component has the path `the/path/to/MyObject.cfc` the object should be created
+  as `createobject("the.path.to.MyObject")` and not
+  `createobject("the.path.to.myobject")`.
+
 #### Function Naming
 
 - All built-in ColdFusion functions should be in `lowercase()`
@@ -62,10 +69,9 @@
 
 #### Boolean Values
 
-- Boolean values should be uppercase: `TRUE` and `FALSE`, except for settings with boolean attributes which should be lowercase `true` and `false`. e.g.output and required attributes.
-- Use `TRUE` or `FALSE` for booleans, not `YES`, `NO`, `1` or `0`
-- Use boolean expressions for positive conditions where the explicit notation
-  is not necessary
+- Boolean values should be uppercase: `TRUE` and `FALSE`, except for settings
+  with boolean attributes which should be lowercase `true` and `false`.
+  e.g.`output` and `required` attributes.
 
 ```cfm
 <!--- yes --->
