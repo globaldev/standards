@@ -228,8 +228,6 @@ being they are indented appropriately as if they were rules.
 
 #### Vendor Prefixes
 
-* Try to use the Bourbon Sass mixins wherever possible. The library should be
-  updated periodically.
 * Vendor prefixed rules should always precede the global variation of a
   particular rule
 * Keep an eye out for obsolete vendor prefixed rules and remove those no longer
