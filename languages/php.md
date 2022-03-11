@@ -74,3 +74,22 @@ As such, any PHP work should follow the community-driven standards :-
 
     return $this->getConnectionForKey($key)->get($key);
     ```
+* For long/multiline strings use NOWDOC/HEREDOC (since 8 they can be indented) - in the case of heredoc this allows string interpolation the same as `""`
+
+    For example instead of
+
+  ```php
+    $html = "<p>Dear " . $firstName . " " . $lastName . "</p>
+    <p>Please find attached your latest balance as of " . $invoiceDate . "</p>";
+  ```
+
+  You can use :-
+
+  ```php
+    $message = <<<HTML
+    <p>Dear $firstName $lastName</p>
+    <p>Please find attached your latest balance as of $invoiceDate</p>
+    HTML;
+  ```
+
+  This has multiple advantages, it's whitespace *safe*, newlines are explicit, you can use variable interpolation, it's just easier to read.
