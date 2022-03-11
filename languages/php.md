@@ -56,7 +56,7 @@ As such, any PHP work should follow the community-driven standards :-
     ```
     
     Generally speaking if you can avoid having `$Foo[4]` in favour of `$hostname` you should.
-* Prefer guard conditions and extracting child conditions - frequently if you invert the conditional you can better express intent i.e.
+* Prefer guard conditions and extracting child conditions - 
     ```php
     if (count($this->connections) !== 0) {
         return $this->getConnectionForKey($key)->get($key);
@@ -68,6 +68,7 @@ As such, any PHP work should follow the community-driven standards :-
     versus:
 
     ```php
+    // frequently if you invert the conditional you can better express intent
     if (count($this->connections) === 0) {
         return false;
     }
