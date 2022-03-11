@@ -9,8 +9,9 @@ As such, any PHP work should follow the community-driven standards :-
 
 * https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md *autoloading*
 * https://www.php-fig.org/psr/psr-12/ *formatting*
-* Use `declare(strict_types=1);` it *will* catch subtle co-ercion errors
+* Use `declare(strict_types=1);` it *will* catch subtle type co-ercion errors
 * Always use `===` *unless you explicitly want to use type-juggling*
+* Comment your code, don't describe what the code does (unless the code is complex/state dependent) describe *why it does it*
 
 ## General Code/Rules
 
@@ -18,7 +19,8 @@ As such, any PHP work should follow the community-driven standards :-
 * Avoid ternary operators except in very simple cases.
     If the condtion of the ternary is complex use an `if` statement, it better expresses intent
 * **NEVER** nest ternary operators.
-* **NEVER** call a method as the true/false branch of a ternary operator!, they are for assignment.
+* **NEVER** call a method as the true/false branch of a ternary operator where not assigning and using the result!, they are for assignment.
+* Return a ternary only in *very* simple cases, otherwise use an `if` statement
 * Don't nest multiple calls inside each other deeply, use an intermediate value with a *good* name.
 * Use intermediary value assignment to express intent clearly, the goal isn't brevity, it's clarity
 * Setup and know how to use `xdebug`
@@ -54,3 +56,21 @@ As such, any PHP work should follow the community-driven standards :-
     ```
     
     Generally speaking if you can avoid having `$Foo[4]` in favour of `$hostname` you should.
+* Prefer guard conditions and extracting child conditions - frequently if you invert the conditional you can better express intent i.e.
+    ```php
+    if (count($this->connections) !== 0) {
+        return $this->getConnectionForKey($key)->get($key);
+    } else {
+        return false;
+    }
+    ```
+
+    versus:
+
+    ```php
+    if (count($this->connections) === 0) {
+        return false;
+    }
+
+    return $this->getConnectionForKey($key)->get($key);
+    ```
